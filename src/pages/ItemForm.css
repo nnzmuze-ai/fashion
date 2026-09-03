@@ -1,0 +1,60 @@
+.hact {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.hact:disabled {
+  color: var(--muted);
+  cursor: default;
+}
+.photo-box {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  margin-bottom: 22px;
+  cursor: pointer;
+  overflow: hidden;
+  gap: 10px;
+}
+.photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.photo-hint {
+  font-size: 12px;
+}
+.edit-badge {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fallback-note {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11.5px;
+  color: var(--muted);
+  line-height: 1.4;
+  margin-top: -6px;
+  margin-bottom: 20px;
+}
