@@ -1,0 +1,42 @@
+.wardrobe-header {
+  padding: 22px 20px 4px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex: none;
+}
+.wardrobe-header .word {
+  font-family: var(--display);
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  line-height: 1;
+}
+.wardrobe-header .sub {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 6px;
+  letter-spacing: 0.4px;
+}
+.wardrobe-header .htools {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding-top: 4px;
+}
+.fab {
+  position: absolute;
+  right: 20px;
+  bottom: 84px;
+  width: 52px;
+  height: 52px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-text);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px oklch(10% 0.01 30 / 0.5);
+  cursor: pointer;
+}
